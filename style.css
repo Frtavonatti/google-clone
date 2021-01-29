@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    height: 100vh;
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-flow: column nowrap;
+}
+a {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+}
+.header{
+    line-height: 6.5vh;
+    height: 6.5vh;
+}
+.header ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 1rem;
+}
+.header a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-right: 1rem;
+    color: black;
+}
+header a:hover {
+    text-decoration: underline;
+}
+.menu-icon {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    align-self: center;
+    margin-right: 1rem;
+}
+.menu-profile {
+    border-radius: 50%;
+    margin: 0 1rem;
+    position: relative;
+    top: 10px;
+}
+.main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.main__search {
+    border: none;
+    width: 50vw;
+    max-width: 450px;
+    height: 40px;
+}
+.main-input-container {
+    /* display: inline-block; */
+    width: 525px;
+    height: 50px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.main-input-container:hover {
+    box-shadow: 1px 1px 5px 5px rgba(0,0,0,0.1);
+}
+.search-icon{
+    background-image: url('https://img.icons8.com/android/24/000000/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    display: inline;
+}
+.micro-icon {
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 22px;
+    height: 22px;
+    display: inline;
+}
+.main__button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    max-width: 500px;
+    height: 10rem;
+}
+.main__button {
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    background-color: rgba(0, 0, 0, 0.025);
+    border-radius: 5px;
+}
+.main__button:hover {
+    border: 1px solid rgba(156, 156, 156, 0.5);
+}
+span {
+    font-size: 12px;
+}
+span a {
+    font-size: 12px;
+}
+.footer {
+    background: #f2f2f2;
+    /* color: rgba(0,0,0,.54); */
+    margin-top: auto;
+}
+.footer-item {
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: 1px solid rgba(0, 0, 0, 0.25);
+}
+.footer ul{
+    display: flex;
+    list-style: none;
+    /* justify-content: space-evenly; */
+}
+.footer a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgba(0,0,0,.54);
+    padding: 1rem;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
